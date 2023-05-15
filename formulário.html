@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+   <style>
+    .quadrado{
+        background-color: white
+        border-color: black;
+        width: 250px;
+        height: 250px;
+    }
+    .oi{
+        background-color: hotpink;
+        border-style: solid;
+        width: 270px;
+        height: 270px;
+    }
+    .eu{
+        margin: 30px;
+        color: black;
+    }
+   </style>
+   </head>
+   <body>
+        <div class="quadrado">
+         <br>
+         <h1>formulário</h1>
+         <br>
+
+        <section class="oi">
+        <form>
+           <br>
+            <label for="nome"> Nome: </label>
+            <input type= 'nome' id= 'nome' name = 'nome' required>
+            <br>
+            <label for="fone"> Telefone: </label>
+            <input type= 'tel' id= 'fone' name = 'fone' required pattern="[0-9]{2} [0-9]{2}-[5-4]{1}" placeholder="11 99999-99999">
+            <br>
+            <br>
+            <label for="email"> Email: </label>
+            <input type= 'email' id= 'nome' email = 'email' required>
+            <br>
+            <br>
+            <label for="endereço"> Endereço: </label>
+            <input type= 'address' id= 'endereço' name = 'endereço' required>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input class="eu" type="reset" value="limpar">
+            <input class="eu" type="submit" value="enviar">
+            <br>
+            <br>
+        </form>
+        </section>
+        </div>
+   </body>
+
+      
+</body>
+</html>
